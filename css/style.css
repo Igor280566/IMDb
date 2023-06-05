@@ -48,6 +48,11 @@ body {
   justify-content: space-between;
   gap: 56px;
 }
+.nav__list-link {
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.698398);
+}
 .nav__list-link:hover {
   padding: 22px 25px;
   color: #fff;

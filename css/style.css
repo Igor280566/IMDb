@@ -30,11 +30,13 @@ body {
   color: #000;
   background-color: #5F7AD3;
 }
-.header {} 
+.header {
+  margin-top: 100px;
+} 
 
 .container {
   max-width: 1300px;
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 0 20px;
   background-color: #fff;
 }
@@ -54,14 +56,47 @@ body {
   color: rgba(0, 0, 0, 0.698398);
 }
 .nav__list-link:hover {
-  padding: 22px 25px;
+  padding: 23px 25px;
   color: #fff;
   background-color: #EA4737;
 }
 .header-inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 20px;
+}
+
+.container-playing {
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #fff;
+
+}
+.now-playing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 4px;
+  padding-bottom: 4px;
+
+}
+.now-playing__text {
+  width: 35px;
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  writing-mode: vertical-lr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4px;
+  letter-spacing: 8.55px;
+  transform: rotate(-180deg);
+  background-color: #2998E2;
 }
 

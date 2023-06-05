@@ -81,7 +81,7 @@ body {
   padding-bottom: 4px;
 
 }
-.now-playing__text {
+.now-playing__title {
   width: 35px;
   font-family: 'Abhaya Libre';
   font-style: normal;
@@ -99,4 +99,5 @@ body {
   transform: rotate(-180deg);
   background-color: #2998E2;
 }
+
 

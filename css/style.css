@@ -251,4 +251,19 @@ body {
 .raitings-left__raiting {
   margin-left: auto;
 }
+.raitings-center {
+  max-width: 415px;
+}
+.raitings-center__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;  
+  color: rgba(0, 0, 0, 0.795488);
+}
+.raitings-right {
+  max-width: 406px;
+}
+
 

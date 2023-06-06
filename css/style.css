@@ -220,6 +220,35 @@ body {
 .news-right__img {
   margin-bottom: 19px;
 }
-
-
+.raitings-left {
+  max-width: 414px;
+}
+.raitings-left-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.raitings-left__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;  
+  color: rgba(0, 0, 0, 0.795488);
+}
+.raitings-left__text {
+  font-size: 16px;
+  line-height: 21px;
+  color: #4A90E2;
+}
+.raitings-left-inner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2px;
+}
+.raitings-left__raiting {
+  margin-left: auto;
+}
 

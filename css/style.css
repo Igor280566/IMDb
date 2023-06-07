@@ -131,6 +131,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 5px;
+  margin-bottom: 20px;
 }
 .news-left {
   max-width: 414px;
@@ -220,6 +221,14 @@ body {
 .news-right__img {
   margin-bottom: 19px;
 }
+.raitings {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 20px;
+  
+
+}
 .raitings-left {
   max-width: 414px;
 }
@@ -255,6 +264,9 @@ body {
   max-width: 415px;
 }
 .raitings-center__title {
+  margin-bottom: -20px;
+}
+.raitings-center__title {
   font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
@@ -265,5 +277,22 @@ body {
 .raitings-right {
   max-width: 406px;
 }
-
+.raitings-right-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.raitings-right-inner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.raitings-right__box-office {
+  margin-left: auto;
+}
+.recentions__img {
+  margin-bottom: 20px;
+}
 

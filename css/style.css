@@ -35,7 +35,7 @@ body {
 } 
 
 .container {
-  max-width: 1340px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 20px;
   background-color: #fff;
@@ -68,7 +68,7 @@ body {
 }
 
 .container-playing {
-  max-width: 1340px;
+  max-width: 1320px;
   margin: 0 auto;
   background-color: #fff;
 
@@ -134,7 +134,7 @@ body {
   margin-bottom: 20px;
 }
 .news-left {
-  max-width: 414px;
+  width: 414px;
 }
 .news-left__nav {
   display: flex;
@@ -185,7 +185,7 @@ body {
   color: #5F7AD3;
 }
 .news-center {
-  max-width: 415px;
+  width: 415px;
   padding-top: 35px;
 }
 .news-center__title {
@@ -209,7 +209,7 @@ body {
   margin-bottom: 19px;
 }
 .news-right {
-  max-width: 406px;
+  width: 406px;
   padding-top: 35px;
 }
 .news-right__title {
@@ -226,11 +226,9 @@ body {
   justify-content: space-between;
   gap: 5px;
   margin-bottom: 20px;
-  
-
 }
 .raitings-left {
-  max-width: 414px;
+  width: 414px;
 }
 .raitings-left-wrap {
   display: flex;
@@ -261,7 +259,7 @@ body {
   margin-left: auto;
 }
 .raitings-center {
-  max-width: 415px;
+  width: 415px;
 }
 .raitings-center__title {
   margin-bottom: -20px;
@@ -275,7 +273,7 @@ body {
   color: rgba(0, 0, 0, 0.795488);
 }
 .raitings-right {
-  max-width: 406px;
+  width: 406px;
 }
 .raitings-right-wrap {
   display: flex;
@@ -301,7 +299,7 @@ body {
   justify-content: space-between;
 }
 .footer-left {
-  max-width: 390px;
+  width: 390px;
 }
 .footer-left__title {
   font-family: 'Rubik';
@@ -331,7 +329,7 @@ body {
   color: #4A90E2;
 }
 .footer-left-center {
-  max-width: 202px;
+  width: 202px;
 }
 .footer-left-center__title {
   font-family: 'Rubik';
@@ -349,7 +347,7 @@ body {
   gap: 15px;
 }
 .footer-right-center {
-  max-width: 202px;
+  width: 202px;
 }
 .footer-right-center__title {
   font-family: 'Rubik';
@@ -366,7 +364,7 @@ body {
   flex-wrap: wrap;
 }
 .footer-right {
-  max-width: 390px;
+  width: 390px;
 }
 .footer-right-wrap {
   display: flex;
